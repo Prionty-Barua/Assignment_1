@@ -1,0 +1,193 @@
+* {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.header {
+    width: 1600px;
+}
+
+.btn-primary {
+    color: #005FAC;
+    height: 80px;
+    background: #ffffff;
+    font-weight: 600;
+    font-size: 20px;
+    border: 0;
+    padding: 18px 35px;
+    border-radius: 5px;
+    width: 120px;
+}
+
+/* Banner styles */
+.banner {
+    direction: rtl;
+    height: 808px;
+    background: #FFF8F3;
+    background-image: url(../images/banner/banner3.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.banner-title {
+    color: #FFFFFF;
+    text-align: justify right;
+    font-weight: 700;
+    font-size: 50px;
+    width: 525px;
+    padding-top: 230px;
+    margin-left: 30px;
+    direction: rtl;
+}
+
+.banner-info {
+    color: #FFFFFF;
+    margin-bottom: 20px;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: right;
+}
+
+/* main section */
+.about {
+    display: flex;
+}
+
+.title {
+    color: #000000;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    width: 288px;
+    height: 94px;
+    margin-left: 30px;
+    direction: ltr;
+}
+
+.details {
+    color: #444343;
+    text-align: justify right;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    width: 416px;
+    padding-top: 230px;
+    margin-left: 30px;
+    direction: ltr;
+}
+
+.about-info-container {
+    justify-content: center;
+    display: flex;
+    gap: 24px;
+}
+
+.section-title {
+    text-align: center;
+    font-weight: 700;
+    font-size: 35px;
+    margin-bottom: 50px;
+}
+
+.skill {
+    background: #FFFFFF;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+    padding: 30px;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.skill-title {
+    color: #474747;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.skill-description {
+    color: #757575;
+    font-size: 20px;
+}
+
+.gradient {
+    background: linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%),
+        url('images/gradient1.png');
+    border-radius: 8px;
+    width: 1140px;
+    width: 80%;
+    height: 400px;
+    background-size: cover;
+    color: white;
+    padding: 20px;
+    /* opacity: 0.5; */
+}
+
+/* footer styles */
+.contact {
+    width: 1600px;
+    height: 577px;
+    display: flex;
+    gap: 100px;
+    background-color: #000000;
+    color: #FFFFFF;
+    padding: 130px 200px;
+}
+
+.contact .section-title {
+    text-align: left;
+}
+
+.section-description {
+    direction: ltr;
+    display: inline-block;
+    height: 78px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: justify left;
+}
+
+.contact input[type="email"] {
+    background-color: rgb(0, 0, 0);
+    border-radius: 5px;
+    border: #ffffff;
+    margin-bottom: 20px;
+    border: 0;
+    width: 100%;
+    padding: 18px 30px;
+}
+
+.icon {
+    justify-content: space-between;
+}
+
+.input {
+    height: 34px;
+    box-sizing: border-box;
+    background: #000000;
+}
+
+.contact {
+    display: flex;
+    gap: 330px;
+}
+
+.btn {
+    background-color: #005FAC;
+    height: 64px;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 20px;
+    border: 0;
+    padding: 18px 15px;
+    border-radius: 5px;
+    width: 160px;
+}
+
+.media{
+    text-align: left;
+}
+.form{
+    text-align: right;
+}
